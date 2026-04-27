@@ -25,12 +25,12 @@ def run(playwright):
     try:
         # Try to find email input on the Auth0/login page
         email_input = page.locator('input[type="email"], input[name="email"], input[name="username"]')
-        email_input.first.fill('mobpark@yopmail.com')
+        email_input.first.fill('')
         print("Filled email.")
         
         # Try to find password input
         password_input = page.locator('input[type="password"], input[name="password"]')
-        password_input.first.fill('Avromandal12345@')
+        password_input.first.fill('')
         print("Filled password.")
         
         # Try to find submit button
