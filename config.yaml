@@ -2,8 +2,8 @@ base_url: "https://stg.proquro.ai"
 
 users:
   company_admin:
-    email: "mobpark@yopmail.com"
-    password: "Avromandal12345@"
+    email: ""
+    password: ""
     role: "company_admin"
     expected_landing: "/company-admin/dashboard"
 
