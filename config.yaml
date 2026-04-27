@@ -1,0 +1,28 @@
+base_url: "https://stg.proquro.ai"
+
+users:
+  company_admin:
+    email: "mobpark@yopmail.com"
+    password: "Avromandal12345@"
+    role: "company_admin"
+    expected_landing: "/company-admin/dashboard"
+
+# These will be created dynamically during tests
+# (roles invited via the Company Admin account)
+dynamic_roles:
+  - department_user
+  - department_head
+  - procurement_manager
+  - store_manager
+  - finance_user
+
+timeouts:
+  page_load: 20000
+  element: 10000
+  network_idle: 15000
+
+headless: true
+slow_mo: 0        # set to 500 for debugging
+viewport:
+  width: 1440
+  height: 900

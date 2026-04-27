@@ -1,0 +1,46 @@
+{
+  "team_invite": {
+    "email_prefix": "proquro_test_",
+    "email_domain": "@yopmail.com",
+    "roles": ["Department User", "Department Head", "Procurement Manager", "Store Manager", "Finance User"]
+  },
+  "department": {
+    "name_prefix": "TEST_DEPT_",
+    "budget": "500000",
+    "location": "Test Location"
+  },
+  "cost_centre": {
+    "name_prefix": "TEST_CC_",
+    "type": "Department",
+    "location": "Test Location"
+  },
+  "indent": {
+    "title_prefix": "TEST_INDENT_",
+    "description": "Automated test indent",
+    "quantity": "10",
+    "unit": "PCS"
+  },
+  "purchase_requisition": {
+    "title_prefix": "TEST_PR_",
+    "description": "Automated test purchase requisition",
+    "priority": "Medium",
+    "quantity": "5"
+  },
+  "rfq": {
+    "title_prefix": "TEST_RFQ_",
+    "description": "Automated test RFQ",
+    "deadline_days": 7
+  },
+  "vendor_invite": {
+    "email_prefix": "test_vendor_",
+    "email_domain": "@yopmail.com",
+    "company_name_prefix": "Test Vendor Co "
+  },
+  "item_master": {
+    "name_prefix": "TEST_ITEM_",
+    "sku_prefix": "SKU-TEST-",
+    "uom": "PCS",
+    "category": "General"
+  },
+  "cleanup_tag": "AUTOMATED_TEST"
+}
