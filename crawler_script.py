@@ -13,8 +13,8 @@ import time
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 BASE_URL = "https://stg.proquro.ai"
-EMAIL    = "mobpark@yopmail.com"
-PASSWORD = "Avromandal12345@"
+EMAIL    = ""
+PASSWORD = ""
 
 PAGES = [
     {"name": "Company Admin Dashboard",   "url": "/company-admin/dashboard"},
